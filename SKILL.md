@@ -1,9 +1,9 @@
 ---
-name: second-read
+name: cfs-audit
 description: Review and predict the grade of a BUS 624 Comprehensive Financial Statement (CFS) draft (Step 2 common size, Step 3 ratios, Step 4 strategies draft, or final memo) against the syllabus, the published CFS 1 rubric and recurring instructor feedback patterns. Use when asked to grade, review or check a CFS deck, workbook or memo before submitting.
 ---
 
-# second-read: BUS 624 CFS draft reviewer
+# CFS audit: BUS 624 CFS draft reviewer
 
 Grades a CFS draft the way the course has been graded so far: a points scorecard against the requirements for that step, a checklist of evidence-based issues, short margin comments, and the few fixes that would move the grade most.
 

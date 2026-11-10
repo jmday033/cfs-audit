@@ -1,4 +1,4 @@
-# second-read
+# CFS audit
 
 A second reader for BUS 624 CFS drafts (UH Shidler DLEMBA, Fall 2026). Give it your deck, workbook or memo and it returns a predicted score, a checklist of what's missing, margin-style comments, and the three fixes most likely to move your grade.
 
@@ -6,7 +6,7 @@ It is a **predictor, not the grade**. Use it to catch gaps before you submit, no
 
 ## How to use it
 
-**ChatGPT, Claude or Copilot (no setup):** upload `SKILL.md` and the three files in `references/` together with your draft, then ask: *"Grade this draft following the second-read instructions."*
+**ChatGPT, Claude or Copilot (no setup):** upload `SKILL.md` and the three files in `references/` together with your draft, then ask: *"Grade this draft following the CFS audit instructions."*
 
 **Claude skill:** copy this folder into your skills directory (or upload it as a skill in Claude). It triggers when you ask Claude to review or grade a CFS draft.
 
@@ -48,3 +48,7 @@ Classmates are welcome to improve it:
 - Open a pull request, or fork it and make it your own.
 
 Please keep it free of grades, names, and anything a teammate shared privately.
+
+## Custom GPT setup
+
+The `gpt/` folder has everything to build a custom GPT named **CFS audit**: paste `gpt/instructions.txt` into the Instructions box, upload `SKILL.md` and the three files in `references/` as Knowledge, and turn on Code Interpreter so it can open .pptx and .xlsx files.
