@@ -61,3 +61,17 @@ She treats teams' growth ideas as worth exploring but unproven until these are a
 - Cut filler words by pausing.
 - Watch timing.
 - Tell the story of why a number matters, conversationally.
+
+## The example deck she posted `[course]`
+
+The instructor's CFS Project folder includes a past group's CFS 1 deck on a fast-food company as an example. These are its features, as a model for format (paraphrased):
+
+- **Opens with the problem.** A "why are we here today?" slide that states the risk in one line and backs it with 3 headline numbers (net income, return on assets, free cash flow).
+- **One-line takeaway per section.** The message from the company, the MD&A and the auditor reports each get one plain sentence before any detail.
+- **Peers with their niche.** Two named competitors, each with the one strength that makes it a threat, not just a table of numbers.
+- **A question as a slide title.** e.g. "Is it not cheap anymore? Will tariffs make it worse?", answered with evidence (price changes over five years).
+- **Many options, then a decision.** It listed eight possible responses, then used a decision chart to compare the main ones by downstream effect (profit, demand, investor appeal) before landing on a combination approach.
+- **A plain-language analogy.** One analogy explains the year's results the way you'd tell a neighbor.
+- **A works-cited slide.**
+
+Don't copy its weaknesses: it cited aggregator sites (stock-chart and market-cap websites) where the syllabus expects filings, and its options weren't priced. Later steps need dollars, timelines and filings.
