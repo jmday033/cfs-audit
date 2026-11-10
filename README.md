@@ -4,6 +4,19 @@ A second reader for BUS 624 CFS drafts (UH Shidler DLEMBA, Fall 2026). Give it y
 
 It is a **predictor, not the grade**. Use it to catch gaps before you submit, not to argue with a score.
 
+## Quickest way: ask your AI to read it
+
+If your AI can browse the web (ChatGPT with search, Claude, Copilot), upload your draft and paste:
+
+> Read these files and follow SKILL.md to grade my attached CFS draft:
+> https://raw.githubusercontent.com/jmday033/cfs-audit/main/SKILL.md
+> https://raw.githubusercontent.com/jmday033/cfs-audit/main/references/syllabus-cfs.md
+> https://raw.githubusercontent.com/jmday033/cfs-audit/main/references/step-rubrics.md
+> https://raw.githubusercontent.com/jmday033/cfs-audit/main/references/feedback-patterns.md
+> https://raw.githubusercontent.com/jmday033/cfs-audit/main/references/ratio-definitions.md
+
+If it says it can't open the links, use the upload method below instead.
+
 ## How to use it
 
 **ChatGPT, Claude or Copilot (no setup):** upload `SKILL.md` and the files in `references/` together with your draft, then ask: *"Grade this draft following the CFS audit instructions."*
