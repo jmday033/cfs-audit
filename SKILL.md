@@ -16,6 +16,8 @@ Read-only: never edit the draft. When a fix sits on a teammate's slide, name the
 - `references/syllabus-cfs.md`: the CFS assignment, what each step must contain, and the due dates
 - `references/step-rubrics.md`: the published CFS 1 rubric and inferred rubrics for Step 2, Step 3, Step 4 draft and the final memo
 - `references/feedback-patterns.md`: recurring patterns in instructor feedback and in the AI comments she shared, generalized for any company
+- `references/ratio-definitions.md`: ratio definitions as taught in the course (Module 4). Use these before any general definition
+- `CALIBRATION.md`: how far past predictions were from real grades. If it shows the bot runs harsh or generous on a line, adjust the predicted score and say so
 
 ## 1. Identify the draft and the step
 
@@ -57,7 +59,7 @@ Don't award credit for keywords alone. Don't deduct for `[inferred]` items; repo
 11. **Keep GAAP, show adjustments separately.** `[shared-AI]` Present special items, integration costs, impairments and peer non-operating items as a reconciliation with reasons, applied consistently across peers.
 12. **Trace material claims to original sources.** `[syllabus]` Workbook inputs cite a specific filing; calculated cells stay formulas. A generic footer isn't enough. The syllabus asks teams to verify AI output against source documents.
 13. **Verify totals, formulas, units, ratios and signs.** `[inferred]` E.g., a coverage ratio shown as a percentage. Distinguish an uncached value from a wrong formula.
-14. **Consistent definitions.** `[inferred]` For ratios, disclose numerator, denominator, averaging, period, and treatment of negative values. Match any management target to its exact metric.
+14. **Consistent definitions.** `[inferred]` Check ratios against `references/ratio-definitions.md` first; a disclosed course-consistent definition is not an error. For ratios, disclose numerator, denominator, averaging, period, and treatment of negative values. Match any management target to its exact metric.
 15. **Delivered slides vs. supporting material.** `[feedback]` Assess them separately and flag essential takeaways the audience can't see. The instructor does review the Excel, so hidden work isn't invisible.
 16. **Reconcile history with the forward-risk thesis.** `[feedback]` A large exposure need not be what caused the historical margin change; say which is which.
 17. **Step coverage.** `[syllabus]` Step 2: three-year horizontal and vertical analysis of both statements, two biggest competitors, industry averages, trends, significant changes, strengths and weaknesses. Step 3: 15 ratios with decision relevance, trends, competitor and industry comparisons, strengths, weaknesses, and how the company is adapting.

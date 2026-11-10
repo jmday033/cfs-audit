@@ -6,7 +6,7 @@ It is a **predictor, not the grade**. Use it to catch gaps before you submit, no
 
 ## How to use it
 
-**ChatGPT, Claude or Copilot (no setup):** upload `SKILL.md` and the three files in `references/` together with your draft, then ask: *"Grade this draft following the CFS audit instructions."*
+**ChatGPT, Claude or Copilot (no setup):** upload `SKILL.md` and the files in `references/` together with your draft, then ask: *"Grade this draft following the CFS audit instructions."*
 
 **Claude skill:** copy this folder into your skills directory (or upload it as a skill in Claude). It triggers when you ask Claude to review or grade a CFS draft.
 
@@ -21,6 +21,7 @@ Built in November 2026 by a DLEMBA student, then generalized for the class. Ever
 | `[syllabus]` | The CFS section of the Fall 2026 BUS 624 syllabus (paraphrased in `references/syllabus-cfs.md`) | Published requirement |
 | `[rubric]` | The published CFS 1 point rubric | Published, CFS 1 only |
 | `[feedback]` | Recurring patterns in instructor feedback on CFS 1 and CFS 2, generalized so no team, company or student is identifiable | Her stated priorities, but drawn from one team's drafts |
+| `[course]` | Module 4 lecture definitions, paraphrased in `references/ratio-definitions.md` | How the course defines each ratio |
 | `[shared-AI]` | The sanitized, composite AI-generated comments the instructor shared alongside the CFS 1 rubric | Signals what she values; not her own grading |
 | `[inferred]` | Our own inference, e.g. the point rubrics for Steps 2–4 and the memo | A guess, built to the CFS 1 rubric's shape |
 
@@ -41,7 +42,12 @@ The process:
 
 ## Contributing
 
-Classmates are welcome to improve it:
+Classmates are welcome to improve it. The two easiest ways take about 2 minutes, from the **Issues** tab → **New issue**:
+
+- **Share a feedback pattern:** the kind of comment the instructor made (no grades or names).
+- **Bot vs. real grade:** the bot's predicted % and your real %. These go into `CALIBRATION.md`, which shows whether the bot runs harsh or generous.
+
+Or edit the files directly:
 
 - **New feedback?** Add the pattern (not your team's grades or private comments) to `references/feedback-patterns.md` with a tag, and add a checklist item to `SKILL.md` if it recurs.
 - **A real rubric gets published?** Replace the matching inferred section in `references/step-rubrics.md` and change its tag to `[rubric]`.
@@ -51,4 +57,4 @@ Please keep it free of grades, names, and anything a teammate shared privately.
 
 ## Custom GPT setup
 
-The `gpt/` folder has everything to build a custom GPT named **CFS audit**: paste `gpt/instructions.txt` into the Instructions box, upload `SKILL.md` and the three files in `references/` as Knowledge, and turn on Code Interpreter so it can open .pptx and .xlsx files.
+The `gpt/` folder has everything to build a custom GPT named **CFS audit**: paste `gpt/instructions.txt` into the Instructions box, upload `SKILL.md` and the files in `references/` as Knowledge, and turn on Code Interpreter so it can open .pptx and .xlsx files.

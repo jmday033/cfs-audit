@@ -1,0 +1,57 @@
+name: Share a feedback pattern
+description: Tell us the kind of comment the instructor made on your draft, so the bot learns it. No grades or names.
+title: "[Pattern] "
+labels: ["feedback-pattern"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping! Share **the kind of comment**, not your grade, your team, your company or anyone's name.
+        Good: "She asked us to label which years were pro forma." Not needed: "We got 4/5 on slide 6."
+  - type: dropdown
+    id: step
+    attributes:
+      label: Which step was it on?
+      options:
+        - CFS 1 (overview, MC, MD&A, AR)
+        - Step 2 (common size)
+        - Step 3 (ratios)
+        - Step 4 draft (strategies)
+        - Final memo
+        - Live presentation
+    validations:
+      required: true
+  - type: textarea
+    id: comment
+    attributes:
+      label: What did the instructor point out?
+      description: In your own words. A paraphrase is better than a quote.
+      placeholder: e.g. She wanted every strategy to say how much it costs and when it pays back.
+    validations:
+      required: true
+  - type: dropdown
+    id: effect
+    attributes:
+      label: Did it seem to cost points?
+      options:
+        - Yes, it cost points
+        - It was praised / earned points
+        - Just a question or suggestion
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: botcaught
+    attributes:
+      label: Did CFS audit catch this before you submitted?
+      options:
+        - "Yes"
+        - "No"
+        - Didn't run it
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Optional — what fixed it (or would have)?
+      description: A generic example helps the bot score it, e.g. "a takeaway that named the trade-off instead of just the number."

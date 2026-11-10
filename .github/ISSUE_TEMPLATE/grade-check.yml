@@ -1,0 +1,50 @@
+name: Bot vs. real grade
+description: Compare the bot's predicted score with the grade you actually got. No names, teams or companies.
+title: "[Grade check] "
+labels: ["calibration"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is how we find out whether the bot is too harsh or too generous. Only percentages, no names, team numbers or companies.
+        Your entry gets added to CALIBRATION.md.
+  - type: dropdown
+    id: step
+    attributes:
+      label: Which step?
+      options:
+        - CFS 1 (overview, MC, MD&A, AR)
+        - Step 2 (common size)
+        - Step 3 (ratios)
+        - Step 4 draft (strategies)
+        - Final memo
+    validations:
+      required: true
+  - type: input
+    id: predicted
+    attributes:
+      label: Bot's predicted score (%)
+      placeholder: e.g. 88
+    validations:
+      required: true
+  - type: input
+    id: real
+    attributes:
+      label: Real score (%)
+      placeholder: e.g. 93
+    validations:
+      required: true
+  - type: textarea
+    id: missed
+    attributes:
+      label: What did the bot get wrong?
+      description: Lines it was too harsh or too generous on, or something the instructor cared about that it didn't flag.
+  - type: dropdown
+    id: version
+    attributes:
+      label: Was the draft you ran the same one you submitted?
+      options:
+        - "Yes, same draft"
+        - "No, we changed it after running the bot"
+    validations:
+      required: true
